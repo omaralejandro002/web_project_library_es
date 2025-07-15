@@ -175,13 +175,15 @@
   max-width: 900px;
 }
 .staff {
-  background: url("../images/staff_picks_background.jpg") center center/cover no-repeat;
+  background: url("../images/staff_picks_background.jpg") center center/cover
+    no-repeat;
 }
 .card {
   border-radius: 0;
 }
 .staff {
-  background: url("../images/staff_picks_background.jpg") center center/cover no-repeat;
+  background: url("../images/staff_picks_background.jpg") center center/cover
+    no-repeat;
   padding: 100px 80px;
   color: #ffffff;
   box-sizing: border-box;
@@ -213,7 +215,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 0; 
+  border-radius: 0;
   box-sizing: border-box;
 }
 
@@ -235,4 +237,22 @@
   font-size: 14px;
   line-height: 16px;
   margin: 0;
+}
+.nav__logo {
+  height: 28px;
+}
+
+.header__title {
+  max-width: 720px;
+  margin-top: 90px;
+}
+
+.header__description {
+  max-width: 388px;
+  margin-top: 32px;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
 }
