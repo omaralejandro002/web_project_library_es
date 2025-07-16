@@ -241,3 +241,61 @@
   color: #2f80ed;
   text-decoration: none;
 }
+.nav__logo {
+  height: 58px;
+  width: 58px;
+}
+
+.header__title {
+  max-width: 620px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.header__description {
+  max-width: 638px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.staff {
+  background-image: url("../images/staff_picks_background.jpg");
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.staff__title {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.staff__subtitle {
+  margin-bottom: 64px;
+}
+
+.staff__cards {
+  margin-bottom: 40px;
+}
+
+.card {
+  border-radius: 0;
+  padding: 30px;
+  height: 420px;
+}
+
+.card__title {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.card__text {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.card__footer {
+  line-height: 16px;
+  color: #666666;
+  margin-top: auto;
+}
