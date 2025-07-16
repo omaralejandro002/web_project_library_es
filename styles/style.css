@@ -238,21 +238,3 @@
   line-height: 16px;
   margin: 0;
 }
-.nav__logo {
-  height: 28px;
-}
-
-.header__title {
-  max-width: 720px;
-  margin-top: 90px;
-}
-
-.header__description {
-  max-width: 388px;
-  margin-top: 32px;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
