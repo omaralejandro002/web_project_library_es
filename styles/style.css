@@ -60,7 +60,6 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin top: 128px
   max-width: 635px;
 }
 
@@ -80,6 +79,9 @@
   height: auto;
 }
 
+.header__footer {
+  text-align: right;
+}
 
 .header__address {
   margin: 0;
