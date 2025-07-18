@@ -25,12 +25,12 @@
 }
 
 .nav__logo {
-  width: 58px;
-  height: 58px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-decoration: none;
+  width: 58px;
+  height: 58px;
 }
 
 .nav__links {
@@ -61,15 +61,17 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin: 90px 0 16px;
-  max-width: 720px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  max-width: 620px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
-  margin: 32px 0 16px;
-  max-width: 388px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  max-width: 638px;
 }
 
 .header__image {
@@ -91,25 +93,104 @@
   margin: 0;
 }
 
-.staff {
-  background-image: url("../images/staff_picks_background.jpg");
-  background-size: cover;
-  padding: 100px 80px 100px;
+.main {
+  padding: 0 80px 40px;
 }
 
 .staff__title {
   font-size: 44px;
   line-height: 52px;
   font-weight: 500;
-  margin: 0 auto 20px;
-  text-align: center;
-  color: #ffffff;
+  margin: 0 0 20px;
 }
 
 .staff__subtitle {
   font-size: 20px;
   line-height: 30px;
-  margin: 0 auto 64px;
+  margin: 0 0 64px;
+}
+
+.staff__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card__title {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: bold;
+  margin: 0 0 16px;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 16px;
+  flex-grow: 1;
+}
+
+.card__footer {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  text-align: right;
+  font-style: italic;
+  color: #666;
+}
+.staff__title,
+.staff__subtitle {
+  text-align: center;
+  color: #ffffff;
+}
+
+.staff__cards {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.staff {
+  background: url("../images/staff_picks_background.jpg") center center/cover
+    no-repeat;
+}
+.card {
+  border-radius: 0;
+}
+.staff {
+  background: url("../images/staff_picks_background.jpg") center center/cover
+    no-repeat;
+  padding: 100px 80px;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+.staff__title,
+.staff__subtitle {
   text-align: center;
   color: #ffffff;
 }
@@ -126,51 +207,34 @@
 }
 
 .card {
-  width: 360px;
-  height: 420px;
   background-color: #ffffff;
+  width: 360px;
+  min-height: 420px;
   padding: 30px;
-  border-radius: 0;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 0;
   box-sizing: border-box;
 }
 
-.card__title {
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: bold;
-  margin: 0 0 16px;
-  color: #000000;
-}
-
-.card__text {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0 0 16px;
-  flex-grow: 1;
-  color: #000000;
-}
-
 .card__footer {
-  font-size: 14px;
-  line-height: 16px;
-  color: #666666;
-  margin: 0;
   margin-top: auto;
+  text-align: right;
+  font-style: italic;
+  color: #666;
+}
+.card__title,
+.card__text,
+.card__footer {
+  color: #000000;
+}
+.card__footer {
   text-align: left;
   font-style: italic;
-}
-
-.card__content {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.header__link {
-  color: #000000;
-  text-decoration: none;
+  color: #666666;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
 }
