@@ -60,7 +60,6 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  max-width: 635px;
 }
 
 .header__description {
@@ -80,7 +79,8 @@
 }
 
 .header__footer {
-  
+  text-align: right;
+  color: #666666;
 }
 
 .header__address {
@@ -149,17 +149,6 @@
   padding: 100px 100px;
   color: #ffffff;
   box-sizing: border-box;
-}
-
-.staff__cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  max-width: 760px;
-  margin: 68px auto 40px;
-  list-style-type: none;
-  padding: 0;
 }
 
 .card {
