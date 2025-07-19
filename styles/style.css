@@ -60,6 +60,9 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 16px;
+  max-width: 620px;
 }
 
 .header__description {
@@ -80,7 +83,8 @@
 
 .header__footer {
   text-align: right;
-  color: #666666;
+  color: #838383;
+  margin: 0;
 }
 
 .header__address {
