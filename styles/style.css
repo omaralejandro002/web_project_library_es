@@ -57,12 +57,11 @@
 }
 
 .header__title {
+  max-width: 635px;
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 16px;
-  max-width: 620px;
+  margin-top: 128px;
 }
 
 .header__description {
@@ -82,9 +81,12 @@
 }
 
 .header__footer {
-  text-align: right;
-  color: #838383;
-  margin: 0;
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
 }
 
 .header__address {
