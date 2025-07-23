@@ -67,9 +67,11 @@
 .header__description {
   font-size: 20px;
   line-height: 30px;
-  margin-top: 32px;
-  max-width: 515px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  max-width: 638px;
 }
+
 
 .header__image {
   max-width: 636px;
