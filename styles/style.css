@@ -116,7 +116,7 @@
   font-size: 44px;
   line-height: 52px;
   font-weight: 500;
-  margin: 0 0 24px;
+  margin: 24px;
 }
 
 .staff__subtitle {
@@ -168,4 +168,9 @@
   font-size: 14px;
   line-height: 16px;
   margin: 0;
+}
+.card_content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
