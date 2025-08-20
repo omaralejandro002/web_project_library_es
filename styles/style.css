@@ -264,27 +264,39 @@
   z-index: 1;
 }
 
-.person_name_feynman 
-{  top: -30px; left: 319px; 
-  right: auto; bottom: auto;
- }
+.person_name_feynman {
+  top: -30px;
+  left: 319px;
+  right: auto;
+  bottom: auto;
+}
 
-.person_name_tarter 
- {  top:  79px; left: 159px; 
-  right: auto; bottom: auto;
- }
+.person_name_tarter {
+  top: 79px;
+  left: 159px;
+  right: auto;
+  bottom: auto;
+}
 
-.person_name_burbidge
-{  top:  96px; right:125px;
-   left:  auto; bottom: auto;
-   }
-.person_name_mitchell{ bottom:  82px; left: 142px;
-   right: auto; top:    auto;
-   }
-.person_name_cannon  
-{ bottom: 216px; right: 18px; left:  auto; 
-  top:    auto; }
-  
+.person_name_burbidge {
+  top: 96px;
+  right: 125px;
+  left: auto;
+  bottom: auto;
+}
+.person_name_mitchell {
+  bottom: 82px;
+  left: 142px;
+  right: auto;
+  top: auto;
+}
+
+.person_name_cannon {
+  bottom: 216px;
+  right: 18px;
+}
+
+
 .person__image {
   max-width: 100%;
 }
